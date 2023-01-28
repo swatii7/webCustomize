@@ -1,0 +1,75 @@
+body{
+    color: #666666;
+    font-family: Nunito;
+}
+
+
+.btn{
+    background-color: #8B0000;
+    color: white;
+    border-radius: 35px;
+}
+
+.bg-maroon{
+    background-color: #8B0000 !important;
+}
+
+.maroon{
+    color: #8B0000;
+}
+
+.f_bg_red{
+background-color: #B22222;
+}
+
+.heading{
+    font-family: 'Handlee', cursive;
+}
+
+.cardStyle{
+    height: 204px;
+    padding: 25px;
+}
+
+.getIcon svg{
+    margin-top: 10px;
+    margin-right: 11px;
+}
+
+.icons svg{
+    height: 31px;
+    width: 31px;
+    margin-right: 25px;
+    
+}
+
+/* .fw-400{
+    font-weight: 400 !important;
+}
+
+.fw-500{
+    font-weight: 500 !important;
+}
+.fw-600{
+    font-weight: 600 !important;
+}
+
+.fw-700{
+    font-weight: 700 !important;
+}
+.fw-800{
+    font-weight: 800 !important;
+}
+
+.fw-900{
+    font-weight: 900 !important;
+} */
+
+
+
+
+.header img{
+    height: 250px;
+    width: 250px;
+
+}
