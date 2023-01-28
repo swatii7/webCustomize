@@ -41,6 +41,11 @@ body {
   margin-right: 25px;
 }
 
+#footer{
+    height: 500px;
+    padding-top: 150px;
+}
+
 /* .fw-400{
     font-weight: 400 !important;
 }
