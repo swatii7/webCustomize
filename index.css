@@ -1,46 +1,44 @@
-body{
-    color: #666666;
-    font-family: Nunito;
+body {
+  color: #666666;
+  font-family: Nunito;
 }
 
-
-.btn{
-    background-color: #8B0000;
-    color: white;
-    border-radius: 35px;
+.btn {
+  background-color: #8b0000;
+  color: white;
+  border-radius: 35px;
 }
 
-.bg-maroon{
-    background-color: #8B0000 !important;
+.bg-maroon {
+  background-color: #8b0000 !important;
 }
 
-.maroon{
-    color: #8B0000;
+.maroon {
+  color: #8b0000;
 }
 
-.f_bg_red{
-background-color: #B22222;
+.f_bg_red {
+  background-color: #b22222;
 }
 
-.heading{
-    font-family: 'Handlee', cursive;
+.heading {
+  font-family: "Handlee", cursive;
 }
 
-.cardStyle{
-    height: 204px;
-    padding: 25px;
+.cardStyle {
+  height: 204px;
+  padding: 25px;
 }
 
-.getIcon svg{
-    margin-top: 10px;
-    margin-right: 11px;
+.getIcon svg {
+  margin-top: 10px;
+  margin-right: 11px;
 }
 
-.icons svg{
-    height: 31px;
-    width: 31px;
-    margin-right: 25px;
-    
+.icons svg {
+  height: 31px;
+  width: 31px;
+  margin-right: 25px;
 }
 
 /* .fw-400{
@@ -65,11 +63,77 @@ background-color: #B22222;
     font-weight: 900 !important;
 } */
 
+.header img {
+  height: 250px;
+  width: 250px;
+}
 
+/** ----switch-button---start **/
 
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 26px;
+}
 
-.header img{
-    height: 250px;
-    width: 250px;
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
 
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 2px;
+  top: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #8b0000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #8b0000;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 20px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/** switch button end **/
+
+/** theme colors **/
+
+.bg-dark-red {
+  background-color: #8b0000 !important;
 }
