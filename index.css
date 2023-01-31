@@ -1,6 +1,7 @@
 body {
   color: #666666;
   font-family: Nunito;
+
 }
 
 .btn {
@@ -17,7 +18,7 @@ body {
   color: #8b0000;
 }
 
-.f_bg_red {
+.bg-red {
   background-color: #b22222;
 }
 
@@ -142,3 +143,43 @@ input:checked + .slider:before {
 .bg-dark-red {
   background-color: #8b0000 !important;
 }
+
+.bg-dark-brown{
+  background-color: #161515 !important;                                                                                                           ;
+}
+
+.text-grey{
+  color: #999;
+}
+
+
+#navId{
+  color: #999;
+}
+
+.nav-link:hover{
+  color: #161515 !important;
+} 
+
+.text-grey:hover {
+  color: white !important;
+}
+
+.bg-light-brown{
+  background-color: #241f21 !important;
+  
+}
+
+.color-white{
+  color: white !important;;
+}
+
+.text-dark{
+  color: black;
+}
+
+.border-light{
+  border-color: white !important;
+}
+
+
